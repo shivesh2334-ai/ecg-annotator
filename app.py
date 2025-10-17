@@ -27,8 +27,8 @@ import time
 from datetime import datetime
 from PIL import Image
 import plotly.graph_objects as go
-from streamlit_plotly_events import plotly_events
-
+#from streamlit_plotly_events import plotly_events
+pip install "streamlit-plotly-events\u003e=0.4.2"
 # Optional imports - handle gracefully if not installed
 try:
     import pyedflib
