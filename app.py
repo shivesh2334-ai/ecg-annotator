@@ -29,6 +29,661 @@ from PIL import Image
 import plotly.graph_objects as go
 #from streamlit_plotly_events import plotly_events
 pip install "streamlit-plotly-events\u003e=0.4.2"
+Error installing requirements.
+Click "Manage App" and consult the terminal for more details.
+
+If you still have questions, leave a message in our forums and we will get back to you ASAP.
+
+[     UTC     ] Logs for ecg-annotator.streamlit.app/
+
+────────────────────────────────────────────────────────────────────────────────────────
+
+[07:18:19] 🚀 Starting up repository: 'ecg-annotator', branch: 'main', main module: 'app.py'
+
+[07:18:19] 🐙 Cloning repository...
+
+[07:18:19] 🐙 Cloning into '/mount/src/ecg-annotator'...
+
+[07:18:19] 🐙 Cloned repository!
+
+[07:18:19] 🐙 Pulling code changes from Github...
+
+[07:18:19] 📦 Processing dependencies...
+
+
+──────────────────────────────────────── uv ───────────────────────────────────────────
+
+
+Using uv pip install.
+
+Using Python 3.13.8 environment at /home/adminuser/venv
+
+  × No solution found when resolving dependencies:
+
+  ╰─▶ Because only streamlit-plotly-events<=0.0.6 is available and you require
+
+      streamlit-plotly-events>=0.4.2, we can conclude that your requirements
+
+      are unsatisfiable.
+
+Checking if Streamlit is installed
+
+Installing rich for an improved exception logging
+
+Using uv pip install.
+
+Using Python 3.13.8 environment at /home/adminuser/venv
+
+Resolved 4 packages in 127ms
+
+Prepared 4 packages in 99ms
+
+Installed 4 packages in 12ms
+
+ + markdown-it-py==4.0.0
+
+ + mdurl==0.1.2
+
+ + pygments==2.19.2[2025-10-17 07:18:20.547919] 
+
+ + rich==14.2.0
+
+
+────────────────────────────────────────────────────────────────────────────────────────
+
+
+
+──────────────────────────────────────── pip ───────────────────────────────────────────
+
+
+Using standard pip install.
+
+Collecting streamlit>=1.20 (from -r /mount/src/ecg-annotator/requirements.txt (line 1))
+
+  Downloading streamlit-1.50.0-py3-none-any.whl.metadata (9.5 kB)
+
+Collecting numpy>=1.21 (from -r /mount/src/ecg-annotator/requirements.txt (line 2))
+
+  Downloading numpy-2.3.4-cp313-cp313-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl.metadata (62 kB)
+
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 62.1/62.1 kB 4.8 MB/s eta 0:00:00[2025-10-17 07:18:22.255452] 
+
+Collecting pandas>=1.3 (from -r /mount/src/ecg-annotator/requirements.txt (line 3))
+
+  Downloading pandas-2.3.3-cp313-cp313-manylinux_2_24_x86_64.manylinux_2_28_x86_64.whl.metadata (91 kB)
+
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 91.2/91.2 kB 31.5 MB/s eta 0:00:00[2025-10-17 07:18:22.430952] 
+
+Collecting plotly>=5.0 (from -r /mount/src/ecg-annotator/requirements.txt (line 4))
+
+  Downloading plotly-6.3.1-py3-none-any.whl.metadata (8.5 kB)
+
+Collecting Pillow>=8.0 (from -r /mount/src/ecg-annotator/requirements.txt (line 5))
+
+  Downloading pillow-12.0.0-cp313-cp313-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl.metadata (8.8 kB)
+
+ERROR: Ignored the following versions that require a different python version: 0.55.2 Requires-Python <3.5; 1.21.2 Requires-Python >=3.7,<3.11; 1.21.3 Requires-Python >=3.7,<3.11; 1.21.4 Requires-Python >=3.7,<3.11; 1.21.5 Requires-Python >=3.7,<3.11; 1.21.6 Requires-Python >=3.7,<3.11; 1.26.0 Requires-Python <3.13,>=3.9; 1.26.1 Requires-Python <3.13,>=3.9
+
+ERROR: Could not find a version that satisfies the requirement streamlit-plotly-events>=0.4.2 (from versions: 0.0.5, 0.0.6)
+
+ERROR: No matching distribution found for streamlit-plotly-events>=0.4.2
+
+
+[notice] A new release of pip is available: 24.0 -> 25.2
+
+[notice] To update, run: pip install --upgrade pip
+
+Checking if Streamlit is installed
+
+Installing rich for an improved exception logging
+
+Using standard pip install.
+
+Collecting rich>=10.14.0
+
+  Downloading rich-14.2.0-py3-none-any.whl.metadata (18 kB)
+
+Collecting markdown-it-py>=2.2.0 (from rich>=10.14.0)
+
+  Downloading markdown_it_py-4.0.0-py3-none-any.whl.metadata (7.3 kB)
+
+Collecting pygments<3.0.0,>=2.13.0 (from rich>=10.14.0)
+
+  Downloading pygments-2.19.2-py3-none-any.whl.metadata (2.5 kB)
+
+Collecting mdurl~=0.1 (from markdown-it-py>=2.2.0->rich>=10.14.0)
+
+  Downloading mdurl-0.1.2-py3-none-any.whl.metadata (1.6 kB)
+
+Downloading rich-14.2.0-py3-none-any.whl (243 kB)
+
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 243.4/243.4 kB 11.3 MB/s eta 0:00:00[2025-10-17 07:18:24.078422] 
+
+Downloading markdown_it_py-4.0.0-py3-none-any.whl (87 kB)
+
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 87.3/87.3 kB 202.3 MB/s eta 0:00:00[2025-10-17 07:18:24.091254] 
+
+Downloading pygments-2.19.2-py3-none-any.whl (1.2 MB)
+
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 1.2/1.2 MB 65.6 MB/s eta 0:00:00[2025-10-17 07:18:24.121977] 
+
+Downloading mdurl-0.1.2-py3-none-any.whl (10.0 kB)
+
+Installing collected packages: pygments, mdurl, markdown-it-py, rich
+
+  Attempting uninstall: pygments
+
+    Found existing installation: Pygments 2.19.2
+
+    Uninstalling Pygments-2.19.2:
+
+      Successfully uninstalled Pygments-2.19.2
+
+  Attempting uninstall: mdurl
+
+    Found existing installation: mdurl 0.1.2
+
+    Uninstalling mdurl-0.1.2:
+
+      Successfully uninstalled mdurl-0.1.2
+
+  Attempting uninstall: markdown-it-py
+
+    Found existing installation: markdown-it-py 4.0.0
+
+    Uninstalling markdown-it-py-4.0.0:
+
+      Successfully uninstalled markdown-it-py-4.0.0
+
+  Attempting uninstall: rich
+
+    Found existing installation: rich 14.2.0
+
+    Uninstalling rich-14.2.0:
+
+      Successfully uninstalled rich-14.2.0
+
+Successfully installed markdown-it-py-4.0.0 mdurl-0.1.2 pygments-2.19.2 rich-14.2.0
+
+
+[notice] A new release of pip is available: 24.0 -> 25.2
+
+[notice] To update, run: pip install --upgrade pip
+
+
+────────────────────────────────────────────────────────────────────────────────────────
+
+
+[07:18:25] ❗️ installer returned a non-zero exit code
+
+[07:18:25] ❗️ Error during processing dependencies! Please fix the error and push an update, or try restarting the app.
+
+[07:18:19] 🚀 Starting up repository: 'ecg-annotator', branch: 'main', main module: 'app.py'
+
+[07:18:19] 🐙 Cloning repository...
+
+[07:18:19] 🐙 Cloning into '/mount/src/ecg-annotator'...
+
+[07:18:19] 🐙 Cloned repository!
+
+[07:18:19] 🐙 Pulling code changes from Github...
+
+[07:18:19] 📦 Processing dependencies...
+
+
+──────────────────────────────────────── uv ───────────────────────────────────────────
+
+
+Using uv pip install.
+
+Using Python 3.13.8 environment at /home/adminuser/venv
+
+  × No solution found when resolving dependencies:
+
+  ╰─▶ Because only streamlit-plotly-events<=0.0.6 is available and you require
+
+      streamlit-plotly-events>=0.4.2, we can conclude that your requirements
+
+      are unsatisfiable.
+
+Checking if Streamlit is installed
+
+Installing rich for an improved exception logging
+
+Using uv pip install.
+
+Using Python 3.13.8 environment at /home/adminuser/venv
+
+Resolved 4 packages in 127ms
+
+Prepared 4 packages in 99ms
+
+Installed 4 packages in 12ms
+
+ + markdown-it-py==4.0.0
+
+ + mdurl==0.1.2
+
+ + pygments==2.19.2[2025-10-17 07:18:20.547919] 
+
+ + rich==14.2.0
+
+
+────────────────────────────────────────────────────────────────────────────────────────
+
+
+
+──────────────────────────────────────── pip ───────────────────────────────────────────
+
+
+Using standard pip install.
+
+Collecting streamlit>=1.20 (from -r /mount/src/ecg-annotator/requirements.txt (line 1))
+
+  Downloading streamlit-1.50.0-py3-none-any.whl.metadata (9.5 kB)
+
+Collecting numpy>=1.21 (from -r /mount/src/ecg-annotator/requirements.txt (line 2))
+
+  Downloading numpy-2.3.4-cp313-cp313-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl.metadata (62 kB)
+
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 62.1/62.1 kB 4.8 MB/s eta 0:00:00[2025-10-17 07:18:22.255452] 
+
+Collecting pandas>=1.3 (from -r /mount/src/ecg-annotator/requirements.txt (line 3))
+
+  Downloading pandas-2.3.3-cp313-cp313-manylinux_2_24_x86_64.manylinux_2_28_x86_64.whl.metadata (91 kB)
+
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 91.2/91.2 kB 31.5 MB/s eta 0:00:00[2025-10-17 07:18:22.430952] 
+
+Collecting plotly>=5.0 (from -r /mount/src/ecg-annotator/requirements.txt (line 4))
+
+  Downloading plotly-6.3.1-py3-none-any.whl.metadata (8.5 kB)
+
+Collecting Pillow>=8.0 (from -r /mount/src/ecg-annotator/requirements.txt (line 5))
+
+  Downloading pillow-12.0.0-cp313-cp313-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl.metadata (8.8 kB)
+
+ERROR: Ignored the following versions that require a different python version: 0.55.2 Requires-Python <3.5; 1.21.2 Requires-Python >=3.7,<3.11; 1.21.3 Requires-Python >=3.7,<3.11; 1.21.4 Requires-Python >=3.7,<3.11; 1.21.5 Requires-Python >=3.7,<3.11; 1.21.6 Requires-Python >=3.7,<3.11; 1.26.0 Requires-Python <3.13,>=3.9; 1.26.1 Requires-Python <3.13,>=3.9
+
+ERROR: Could not find a version that satisfies the requirement streamlit-plotly-events>=0.4.2 (from versions: 0.0.5, 0.0.6)
+
+ERROR: No matching distribution found for streamlit-plotly-events>=0.4.2
+
+
+[notice] A new release of pip is available: 24.0 -> 25.2
+
+[notice] To update, run: pip install --upgrade pip
+
+Checking if Streamlit is installed
+
+Installing rich for an improved exception logging
+
+Using standard pip install.
+
+Collecting rich>=10.14.0
+
+  Downloading rich-14.2.0-py3-none-any.whl.metadata (18 kB)
+
+Collecting markdown-it-py>=2.2.0 (from rich>=10.14.0)
+
+  Downloading markdown_it_py-4.0.0-py3-none-any.whl.metadata (7.3 kB)
+
+Collecting pygments<3.0.0,>=2.13.0 (from rich>=10.14.0)
+
+  Downloading pygments-2.19.2-py3-none-any.whl.metadata (2.5 kB)
+
+Collecting mdurl~=0.1 (from markdown-it-py>=2.2.0->rich>=10.14.0)
+
+  Downloading mdurl-0.1.2-py3-none-any.whl.metadata (1.6 kB)
+
+Downloading rich-14.2.0-py3-none-any.whl (243 kB)
+
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 243.4/243.4 kB 11.3 MB/s eta 0:00:00[2025-10-17 07:18:24.078422] 
+
+Downloading markdown_it_py-4.0.0-py3-none-any.whl (87 kB)
+
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 87.3/87.3 kB 202.3 MB/s eta 0:00:00[2025-10-17 07:18:24.091254] 
+
+Downloading pygments-2.19.2-py3-none-any.whl (1.2 MB)
+
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 1.2/1.2 MB 65.6 MB/s eta 0:00:00[2025-10-17 07:18:24.121977] 
+
+Downloading mdurl-0.1.2-py3-none-any.whl (10.0 kB)
+
+Installing collected packages: pygments, mdurl, markdown-it-py, rich
+
+  Attempting uninstall: pygments
+
+    Found existing installation: Pygments 2.19.2
+
+    Uninstalling Pygments-2.19.2:
+
+      Successfully uninstalled Pygments-2.19.2
+
+  Attempting uninstall: mdurl
+
+    Found existing installation: mdurl 0.1.2
+
+    Uninstalling mdurl-0.1.2:
+
+      Successfully uninstalled mdurl-0.1.2
+
+  Attempting uninstall: markdown-it-py
+
+    Found existing installation: markdown-it-py 4.0.0
+
+    Uninstalling markdown-it-py-4.0.0:
+
+      Successfully uninstalled markdown-it-py-4.0.0
+
+  Attempting uninstall: rich
+
+    Found existing installation: rich 14.2.0
+
+    Uninstalling rich-14.2.0:
+
+      Successfully uninstalled rich-14.2.0
+
+Successfully installed markdown-it-py-4.0.0 mdurl-0.1.2 pygments-2.19.2 rich-14.2.0
+
+
+[notice] A new release of pip is available: 24.0 -> 25.2
+
+[notice] To update, run: pip install --upgrade pip
+
+
+────────────────────────────────────────────────────────────────────────────────────────
+
+
+[07:18:25] ❗️ installer returned a non-zero exit code
+
+[07:18:25] ❗️ Error during processing dependencies! Please fix the error and push an update, or try restarting the app.
+
+[07:25:25] 🐙 Pulling code changes from Github...
+
+[07:25:25] 📦 Processing dependencies...
+
+
+──────────────────────────────────────── uv ───────────────────────────────────────────
+
+
+Using uv pip install.
+
+Using Python 3.13.8 environment at /home/adminuser/venv
+
+  × No solution found when resolving dependencies:
+
+  ╰─▶ Because only streamlit-plotly-events<=0.0.6 is available and you require
+
+      streamlit-plotly-events>=0.4.2, we can conclude that your requirements
+
+      are unsatisfiable.
+
+Checking if Streamlit is installed
+
+Installing rich for an improved exception logging
+
+Using uv pip install.
+
+Using Python 3.13.8 environment at /home/adminuser/venv
+
+Audited 1 package in 1ms
+
+
+────────────────────────────────────────────────────────────────────────────────────────
+
+
+
+──────────────────────────────────────── pip ───────────────────────────────────────────
+
+
+Using standard pip install.
+
+Collecting streamlit>=1.20 (from -r /mount/src/ecg-annotator/requirements.txt (line 1))
+
+  Downloading streamlit-1.50.0-py3-none-any.whl.metadata (9.5 kB)
+
+Collecting numpy>=1.21 (from -r /mount/src/ecg-annotator/requirements.txt (line 2))
+
+  Downloading numpy-2.3.4-cp313-cp313-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl.metadata (62 kB)
+
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 62.1/62.1 kB 4.1 MB/s eta 0:00:00[2025-10-17 07:25:28.215359] 
+
+Collecting pandas>=1.3 (from -r /mount/src/ecg-annotator/requirements.txt (line 3))
+
+  Downloading pandas-2.3.3-cp313-cp313-manylinux_2_24_x86_64.manylinux_2_28_x86_64.whl.metadata (91 kB)
+
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 91.2/91.2 kB 16.8 MB/s eta 0:00:00[2025-10-17 07:25:28.403591] 
+
+Collecting plotly>=5.0 (from -r /mount/src/ecg-annotator/requirements.txt (line 4))
+
+  Downloading plotly-6.3.1-py3-none-any.whl.metadata (8.5 kB)
+
+Collecting Pillow>=8.0 (from -r /mount/src/ecg-annotator/requirements.txt (line 5))
+
+  Downloading pillow-12.0.0-cp313-cp313-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl.metadata (8.8 kB)
+
+ERROR: Ignored the following versions that require a different python version: 0.55.2 Requires-Python <3.5; 1.21.2 Requires-Python >=3.7,<3.11; 1.21.3 Requires-Python >=3.7,<3.11; 1.21.4 Requires-Python >=3.7,<3.11; 1.21.5 Requires-Python >=3.7,<3.11; 1.21.6 Requires-Python >=3.7,<3.11; 1.26.0 Requires-Python <3.13,>=3.9; 1.26.1 Requires-Python <3.13,>=3.9
+
+ERROR: Could not find a version that satisfies the requirement streamlit-plotly-events>=0.4.2 (from versions: 0.0.5, 0.0.6)
+
+ERROR: No matching distribution found for streamlit-plotly-events>=0.4.2
+
+
+[notice] A new release of pip is available: 24.0 -> 25.2
+
+[notice] To update, run: pip install --upgrade pip
+
+Checking if Streamlit is installed
+
+Installing rich for an improved exception logging
+
+Using standard pip install.
+
+Collecting rich>=10.14.0
+
+  Downloading rich-14.2.0-py3-none-any.whl.metadata (18 kB)
+
+Collecting markdown-it-py>=2.2.0 (from rich>=10.14.0)
+
+  Downloading markdown_it_py-4.0.0-py3-none-any.whl.metadata (7.3 kB)
+
+Collecting pygments<3.0.0,>=2.13.0 (from rich>=10.14.0)
+
+  Downloading pygments-2.19.2-py3-none-any.whl.metadata (2.5 kB)
+
+Collecting mdurl~=0.1 (from markdown-it-py>=2.2.0->rich>=10.14.0)
+
+  Downloading mdurl-0.1.2-py3-none-any.whl.metadata (1.6 kB)
+
+Downloading rich-14.2.0-py3-none-any.whl (243 kB)
+
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 243.4/243.4 kB 14.2 MB/s eta 0:00:00[2025-10-17 07:25:29.959211] 
+
+Downloading markdown_it_py-4.0.0-py3-none-any.whl (87 kB)
+
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 87.3/87.3 kB 178.8 MB/s eta 0:00:00[2025-10-17 07:25:29.971232] 
+
+Downloading pygments-2.19.2-py3-none-any.whl (1.2 MB)
+
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 1.2/1.2 MB 78.6 MB/s eta 0:00:00[2025-10-17 07:25:29.999952] 
+
+Downloading mdurl-0.1.2-py3-none-any.whl (10.0 kB)
+
+Installing collected packages: pygments, mdurl, markdown-it-py, rich
+
+  Attempting uninstall: pygments
+
+    Found existing installation: Pygments 2.19.2
+
+    Uninstalling Pygments-2.19.2:
+
+      Successfully uninstalled Pygments-2.19.2
+
+  Attempting uninstall: mdurl
+
+    Found existing installation: mdurl 0.1.2
+
+    Uninstalling mdurl-0.1.2:
+
+      Successfully uninstalled mdurl-0.1.2
+
+  Attempting uninstall: markdown-it-py
+
+    Found existing installation: markdown-it-py 4.0.0
+
+    Uninstalling markdown-it-py-4.0.0:
+
+      Successfully uninstalled markdown-it-py-4.0.0
+
+  Attempting uninstall: rich
+
+    Found existing installation: rich 14.2.0
+
+    Uninstalling rich-14.2.0:
+
+      Successfully uninstalled rich-14.2.0
+
+Successfully installed markdown-it-py-4.0.0 mdurl-0.1.2 pygments-2.19.2 rich-14.2.0
+
+
+[notice] A new release of pip is available: 24.0 -> 25.2
+
+[notice] To update, run: pip install --upgrade pip
+
+
+────────────────────────────────────────────────────────────────────────────────────────
+
+
+[07:25:31] ❗️ installer returned a non-zero exit code
+
+[07:25:43] 🖥 Provisioning machine...
+
+[07:25:48] 🎛 Preparing system...
+
+[07:25:47] 🚀 Starting up repository: 'ecg-annotator', branch: 'main', main module: 'app.py'
+
+[07:25:47] 🐙 Cloning repository...
+
+[07:25:47] 🐙 Cloning into '/mount/src/ecg-annotator'...
+
+[07:25:47] 🐙 Cloned repository!
+
+[07:25:47] 🐙 Pulling code changes from Github...
+
+[07:25:47] 📦 Processing dependencies...
+
+
+──────────────────────────────────────── uv ───────────────────────────────────────────
+
+
+Using uv pip install.
+
+Using Python 3.13.8 environment at /home/adminuser/venv
+
+  × No solution found when resolving dependencies:[2025-10-17 07:25:48.531677] 
+
+  ╰─▶ Because only streamlit-plotly-events<=0.0.6 is available and you require
+
+      streamlit-plotly-events>=0.4.2, we can conclude that your requirements
+
+      are unsatisfiable.[2025-10-17 07:25:48.532753] 
+
+Checking if Streamlit is installed
+
+Installing rich for an improved exception logging
+
+Using uv pip install.
+
+Using Python 3.13.8 environment at /home/adminuser/venv
+
+Resolved 4 packages in 150ms
+
+Prepared 4 packages in 135ms
+
+Installed 4 packages in 14ms
+
+ + markdown-it-py==4.0.0
+
+ + mdurl==0.1.2[2025-10-17 07:25:48.853553] 
+
+ + pygments==2.19.2
+
+ + rich==14.2.0
+
+
+────────────────────────────────────────────────────────────────────────────────────────
+
+
+
+──────────────────────────────────────── pip ───────────────────────────────────────────
+
+
+Using standard pip install.
+
+[07:25:49] ⛓ Spinning up manager process...
+
+Collecting streamlit>=1.20 (from -r /mount/src/ecg-annotator/requirements.txt (line 1))
+
+  Downloading streamlit-1.50.0-py3-none-any.whl.metadata (9.5 kB)
+
+Collecting numpy>=1.21 (from -r /mount/src/ecg-annotator/requirements.txt (line 2))
+
+  Downloading numpy-2.3.4-cp313-cp313-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl.metadata (62 kB)
+
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 62.1/62.1 kB 4.5 MB/s eta 0:00:00[2025-10-17 07:25:50.571269] 
+
+Collecting pandas>=1.3 (from -r /mount/src/ecg-annotator/requirements.txt (line 3))
+
+  Downloading pandas-2.3.3-cp313-cp313-manylinux_2_24_x86_64.manylinux_2_28_x86_64.whl.metadata (91 kB)
+
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 91.2/91.2 kB 48.5 MB/s eta 0:00:00[2025-10-17 07:25:50.768199] 
+
+Collecting plotly>=5.0 (from -r /mount/src/ecg-annotator/requirements.txt (line 4))
+
+  Downloading plotly-6.3.1-py3-none-any.whl.metadata (8.5 kB)
+
+Collecting Pillow>=8.0 (from -r /mount/src/ecg-annotator/requirements.txt (line 5))
+
+  Downloading pillow-12.0.0-cp313-cp313-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl.metadata (8.8 kB)
+
+ERROR: Ignored the following versions that require a different python version: 0.55.2 Requires-Python <3.5; 1.21.2 Requires-Python >=3.7,<3.11; 1.21.3 Requires-Python >=3.7,<3.11; 1.21.4 Requires-Python >=3.7,<3.11; 1.21.5 Requires-Python >=3.7,<3.11; 1.21.6 Requires-Python >=3.7,<3.11; 1.26.0 Requires-Python <3.13,>=3.9; 1.26.1 Requires-Python <3.13,>=3.9
+
+ERROR: Could not find a version that satisfies the requirement streamlit-plotly-events>=0.4.2 (from versions: 0.0.5, 0.0.6)
+
+ERROR: No matching distribution found for streamlit-plotly-events>=0.4.2
+
+
+[notice] A new release of pip is available: 24.0 -> 25.2
+
+[notice] To update, run: pip install --upgrade pip
+
+Checking if Streamlit is installed
+
+Installing rich for an improved exception logging
+
+Using standard pip install.
+
+Collecting rich>=10.14.0
+
+  Downloading rich-14.2.0-py3-none-any.whl.metadata (18 kB)
+
+Collecting markdown-it-py>=2.2.0 (from rich>=10.14.0)
+
+  Downloading markdown_it_py-4.0.0-py3-none-any.whl.metadata (7.3 kB)
+
+Collecting pygments<3.0.0,>=2.13.0 (from rich>=10.14.0)
+
+  Downloading pygments-2.19.2-py3-none-any.whl.metadata (2.5 kB)
+
+Collecting mdurl~=0.1 (from markdown-it-py>=2.2.0->rich>=10.14.0)
+
+  Downloading mdurl-0.1.2-py3-none-any.whl.metadata (1.6 kB)
+
+Downloading rich-14.2.0-py3-none-any.whl (243 kB)
+
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 243.4/243.4 kB 14.4 MB/s eta 0:00:00[2025-10-17 07:25:52.567977] 
+
+Downloading markdown_it_py-4.0.0-py3-
 # Optional imports - handle gracefully if not installed
 try:
     import pyedflib
