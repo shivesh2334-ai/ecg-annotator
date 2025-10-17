@@ -27,10 +27,8 @@ import time
 from datetime import datetime
 from PIL import Image
 import plotly.graph_objects as go
-#from streamlit_plotly_events import plotly_events
-pip install "streamlit-plotly-events\u003e=0.4.2"
-Error installing requirements.
-Click "Manage App" and consult the terminal for more details.
+from streamlit_plotly_events import plotly_events
+
 
 If you still have questions, leave a message in our forums and we will get back to you ASAP.
 
@@ -54,7 +52,7 @@ If you still have questions, leave a message in our forums and we will get back 
 ──────────────────────────────────────── uv ───────────────────────────────────────────
 
 
-Using uv pip install.
+
 
 Using Python 3.13.8 environment at /home/adminuser/venv
 
